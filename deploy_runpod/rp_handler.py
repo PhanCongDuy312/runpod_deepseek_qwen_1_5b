@@ -25,7 +25,7 @@ def handler(event):
     logging.info("Initializing InferenceClient...")
     client = InferenceClient(
         provider="hf-inference",
-        api_key="HF API KEY",
+        # api_key="none",
         timeout=120,
     )
     logging.info("InferenceClient initialized successfully.")

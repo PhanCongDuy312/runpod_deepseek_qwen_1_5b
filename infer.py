@@ -2,8 +2,8 @@ import requests
 import time
 
 # Replace with your actual API Key and Endpoint ID
-API_KEY = 'rpa_QMNIH2INI208G0KFX2BSTA76BCMSBQ99OLAVJHWV155x0r'  # Replace with your actual API key
-ENDPOINT_ID = "5535hu45acjkvp"  # Replace with your actual endpoint ID
+API_KEY = "API_KEY" # Replace with your actual API key
+ENDPOINT_ID = "ENDPOINT_ID"  # Replace with your actual endpoint ID
 
 # API URLs
 RUN_URL = f"https://api.runpod.ai/v2/{ENDPOINT_ID}/runsync"

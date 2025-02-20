@@ -1,0 +1,5 @@
+torch
+runpod
+huggingface_hub
+transformers
+logging
